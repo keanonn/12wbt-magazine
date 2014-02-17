@@ -148,7 +148,6 @@
 							<ul>
 								<li><a href="https://www.12wbt.com/blog/">12WBT Blog</a></li>
 								<li><a href="https://www.12wbt.com/tour/our-team/">Our Team</a></li>
-								<li><a href="https://www.12wbt.com/media/">Media</a></li>
 								<li><a href="https://www.12wbt.com/sitemap/">Sitemap</a></li>
 							</ul>
 						</div>
