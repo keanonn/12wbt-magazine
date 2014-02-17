@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6{
+	@include arsmaquette-sans;
+}
+
+#main-container{
+	background: transparent url(assets/img/main-bg.png);
+	width: 100%;
+	.main{
+		&.container{
+			background: transparent;
+		}
+	}
+}
+
+
+/* Logged in */
+body.logged-in .primary-menu{ 
+	top: 32px !important;
+}

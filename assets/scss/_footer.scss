@@ -1,0 +1,414 @@
+#footer-public {
+  clear: both;
+  background: $mb-blue-mid;
+}
+#footer-public .wrap, #footer-public #footer-information,
+#footer-public #footer-links {
+  margin: 0 auto;
+  text-align: left;
+}
+#footer-public #footer-join {
+  margin: 0 0 10px;
+  padding: 30px 0 0;
+  -webkit-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
+}
+#footer-public #footer-join .benefits {
+  width: 44%;
+  float:left;
+}
+#footer-public #footer-join .benefits h3 {
+  margin-top: 5px;
+  line-height: 32px;
+  font-size: 29px;
+  font-family: "ArsMaquette", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: white;
+}
+#footer-public #footer-join .benefits h3 b {
+  font-weight: 700;
+}
+#footer-public #footer-join .benefits ul {
+  color: white;
+  font-size: 17px;
+  padding: 0;
+}
+#footer-public #footer-join .benefits ul li {
+  margin: 0;
+  padding-left: 40px;
+  background: url(assets/img/footer/bullet-tick-light.png) no-repeat 0 0;
+  list-style: none;
+}
+#footer-public #footer-join .signup {
+  width: 450px;
+  float: right;
+}
+
+#footer-public #footer-join .signup .highlight-box {
+  margin: 10px 0 30px;
+  padding: 0;
+  border: 1px solid #006aa3;
+}
+#footer-public #footer-join .signup .highlight-box .instruction {
+  display: none;
+}
+#footer-public #footer-join .signup .highlight-box ul {
+  margin: 0;
+  padding: 18px 5px;
+  background: url(assets/img/footer/bg-payment-save-badge.png) no-repeat 0 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: white;
+}
+#footer-public #footer-join .signup .highlight-box li {
+  background: none;
+  float: left;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 214px;
+  list-style: none;
+}
+#footer-public #footer-join .signup .highlight-box li em {
+  color: #339900;
+  font-style: normal;
+  font-weight: bold;
+}
+#footer-public #footer-join .signup .highlight-box li span {
+  color: #999;
+}
+#footer-public #footer-join .signup .highlight-box li a {
+  margin: 12px auto 0;
+  padding: 3px 24px;
+  display: block;
+  width: 130px;
+  color: white;
+}
+#footer-public #footer-join .signup .highlight-box li a span {
+  display: none;
+}
+#footer-public #footer-join .signup .reserve-spot {
+  background: white;
+  padding: 10px;
+  @include border-radius(6px)
+}
+#footer-public #footer-join .signup .reserve-spot input{
+  margin: 0px 0px 10px 0px !important;
+  padding: 3px 5px !important;
+  height: 30px;
+  font-size:14px;
+}
+
+#footer-public #footer-join .signup .reserve-spot label {
+  width: 105px;
+  margin-right: 10px;
+}
+#footer-public #footer-join .signup .reserve-spot .button-register {
+  float: none;
+  margin-left: 113px;
+}
+#footer-public #footer-join .signup .reserve-spot .success {
+  color: #009900;
+}
+#footer-public #footer-join .signup .reserve-spot .error {
+  color: rgb(200, 0, 0);
+}
+#footer-public #footer-join .signup .reserve-spot .form-error {
+  font-size: 12px;
+  margin-left: 115px;
+  margin-bottom: 5px;
+  padding: 0;
+  color: rgb(200, 0, 0);
+}
+
+
+#footer-public #footer-information {
+  background: white;
+  clear:both;
+}
+#footer-public #footer-information h3 {
+  font-size: 22px;
+  line-height: 22px;
+  margin: 27px 0 18px;
+  font-family: "ArsMaquette", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#footer-public #footer-information .features, #footer-public #footer-information .faqs {
+  float: left;
+  width: 46%;
+}
+#footer-public #footer-information .features ul li, #footer-public #footer-information .faqs ul li {
+  margin: 0;
+  line-height: 1.75em;
+  font-size: 15px;
+}
+#footer-public #footer-information .features {
+  margin-right: 39px;
+}
+#footer-public #footer-information .features ul,
+#footer-public #footer-information .faqs ul {
+  padding: 0;
+}
+#footer-public #footer-information .features ul li {
+  padding-left: 30px;
+  background: url(assets/img/footer/bg-overview-tick.png) no-repeat 0 45%;
+  list-style: none;
+}
+#footer-public #footer-information .faqs ul li {
+  padding-left: 25px;
+  background: url(assets/img/footer/bullet-question.png) no-repeat 0 5px;
+  list-style: none;
+}
+#footer-public #footer-information .faqs ul li a {
+  font-weight: normal;
+}
+#footer-public #footer-information .faqs ul li a:hover {
+  text-decoration: underline;
+}
+#footer-public #footer-links ul.links {
+  margin: 0 0 1em;
+  padding: 0;
+  float: left;
+}
+#footer-public #footer-links ul.links li {
+  color: #999;
+  display: block;
+  float: left;
+  font-size: 13px;
+  border-left: 1px solid #999;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+#footer-public #footer-links ul.links li.copyright, #footer-public #footer-links ul.links li.first {
+  border-width: 0;
+  padding-left: 0;
+}
+#footer-public #footer-links ul.links li.copyright {
+  margin-left: 0;
+}
+#footer-public #footer-links ul.links abbr {
+  border-width: 0;
+}
+#footer-public #footer-links ul.links a {
+  color: #999;
+  font-weight: bold;
+}
+#footer-public #footer-links ul.links a:hover {
+  text-decoration: underline;
+}
+#footer-public #footer-links ul.social {
+  float: right;
+  margin: 0 0 0em;
+  padding: 0;
+}
+#footer-public #footer-links ul.social li {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+#footer-public #footer-links ul.social li a {
+  display: inline-block;
+  font-size: 12px;
+  text-align: right;
+  padding: 4px 5px 3px 20px;
+  border: 1px solid rgb(204, 204, 204);
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  background: white;
+  background-image: url(assets/img/footer/bg-footer-sprite.png) !important;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  line-height: 1;
+}
+#footer-public #footer-links ul.social li a.facebook {
+  background-position: 0px -61px;
+}
+#footer-public #footer-links ul.social li a.twitter {
+  background-position: 0px -84px;
+}
+#footer-public #footer-links ul.social li a.youtube {
+  padding-left: 60px;
+  background-position: 0px -105px;
+}
+
+#footer-public #footer-information,
+#footer-public #footer-links {
+ 
+}
+
+#footer-public .reserve-spot p {
+  line-height: 1.6em;
+  font-size: 16px;
+  padding: 20px 20px 0;
+  margin: 0 0 10px;
+}
+#footer-public .reserve-spot .text {
+  float: left;
+  clear: both;
+  margin-bottom: 9px;
+  position: relative;
+}
+#footer-public .reserve-spot .text input {
+  color: #333333;
+  display: inline;
+  float: left;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 3px;
+  width: 216px;
+}
+#footer-public .reserve-spot label {
+  display: inline;
+  float: left;
+  font-weight: bold;
+  padding: 4px 0;
+  text-align: right;
+  width: 64px;
+}
+
+#footer-public .reserve-spot .button {
+  margin: 0 0 20px 74px;
+  padding-left: 0 !important;
+}
+
+#sample-footer{
+  background: $cream;
+}
+
+#sample-footer .wrapper{
+  margin: 0 auto;
+}
+
+#sample-footer .social-icons, #sample-footer .bottom-copy{
+  float:left;
+  padding-top:30px;
+}
+
+#sample-footer .bottom-copy{
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+#sample-footer .social-icons .country{
+  text-align:left;
+  width:300px;
+  float:left;
+}
+#sample-footer .social-icons {
+  width: 100%;
+}
+
+#sample-footer .social-icons .country h3{
+  font-size: 2.2em;
+}
+
+#sample-footer .social-icons .country h3 span.logo{
+  text-indent: 999em;
+  overflow: hidden;
+  display: inline-block;
+  background: url(assets/img/footer/logo-footer.png) no-repeat top left;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+#sample-footer .social-icons .country h3 span.location{
+  font-size: .5em !important;
+  font-weight: normal;
+  color:#999;
+}
+
+#sample-footer .social-icons .social{
+  float:right;
+  list-style: none;
+  margin-top:0px;
+}
+
+#sample-footer .social-icons .social li{
+  display: block;
+  float: left;
+  margin-left: 10px;
+  padding-left: 0;
+  background: none;
+}
+
+#sample-footer .social-icons .social li p, #sample-footer .bottom-copy .copy-holder p{
+  padding-top:5px;
+  color:#999;
+  font-size:15px;
+}
+
+#sample-footer .bottom-copy {
+  width: 100%;
+}
+
+#sample-footer .bottom-copy .copy-holder{
+  float:left;
+  width:500px;
+  text-align:left;
+}
+
+#sample-footer .bottom-copy .pull-right{
+  float:right;
+}
+#sister-site{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+#sister-site a{
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#quick-link {
+width: 100%;
+text-align: left;
+font-size: 1.2em;
+}
+
+#quick-link .span3 {
+float: left;
+width: 24%;
+margin-right: 1px;
+}
+
+#quick-link h4 {
+margin: 1em 0 10px;
+font-family: "ArsMaquette","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+#quick-link ul {
+list-style: none;
+font-size: 1em;
+margin-bottom: 1.2em;
+padding-left: 0;
+margin-left: 0;
+}
+
+#quick-link li {
+background: none;
+padding-left: 0;
+margin: 0;
+}
+
+#quick-link a {
+color: #333;
+font-weight: normal;
+}
+
+.signup-options .mb-btn{
+  width: 80%;
+}
+

@@ -1,0 +1,121 @@
+.header{
+	.primary-menu{
+		 background: $mb-halo;
+		 padding-top: 10px;
+		 border-bottom: 5px solid $cream;
+		 top:0px;
+		 position: fixed;
+		 z-index: 9999;
+		 width: 100%;
+		 .top-bar{
+			.top-bar-section ul li{
+				a {
+					@include arsmaquette-sans;
+					text-transform: none;
+					color: $white;
+					&:hover {background: lighten($mb-blue-mid,10%) !important; }
+				}
+				ul li{
+					a{
+						@include border-radius(0);
+					}
+				}
+			}
+			ul#nav-member{
+				position: absolute;
+				right: 20px;
+				top: 19px;
+			  li{
+					display: inline;
+					margin-left: 5px;
+					a{
+						color: #fff;
+						font-size: 14px;
+				  	padding:{
+				  		left: 10px;
+				  		right: 10px;
+				  	}
+						&.mb-btn{
+							@include border-radius(6px 6px 0 0);
+							box-shadow:inset 0px 0px 0px #c19fdf, 0px 0px 0px #666666;
+						}
+					}
+				}
+			}
+			.menu-icon{
+				left: 0px;
+				padding-left: 10px;
+				a{
+					background: $mb-blue-mid;
+					top: -10px;
+					width: 40px;
+					height: 40px;
+					@include hide-text;
+					@include border-radius(3px 3px 3px 3px);
+					span{
+						left: 10px;
+						top: 5px;
+						width: 20px;
+						-webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #9d9d9d;
+box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+
+					}
+				}
+			}
+		}
+	}
+
+	.primary-breadcrumbs{
+		background: $cream;
+		height: 30px;
+		border-bottom: 1px solid rgb(204, 204, 204);
+		.container{
+			ul{
+				li{
+					margin: 0;
+					padding: 7px 0px 7px 30px;
+					list-style-type: none;
+					float: left;
+					background: transparent url(assets/img/header/breadcrumb-divider.png) no-repeat 4px -3px;
+					color: $grey-dark;
+					&.home{background: none;padding-left: 20px;}
+					a{
+						color: $mb-blue-mid;
+					}
+				}
+			}
+		}
+	}
+	.header-main{
+		height: 200px;
+/*		background: transparent url(assets/img/header/header-sprite.png) no-repeat 46% -270px;;
+*/
+		.logo{
+			top: 30px;
+			h1{
+				padding: 0px;
+				a{
+					@include hide-text;
+					height: 100px;
+					padding: 0;
+					background: transparent url(assets/img/header/header-sprite.png) no-repeat 30px 0;
+				}
+			}
+		}
+
+		.tagline{
+			@include hands-of-sean();
+			position: absolute;
+			top: 40px;
+			right: 0;
+			width: 320px;
+			line-height: 47px;
+			color: white;
+			font-size: 35px;
+			font-weight: normal;
+			text-align: left;
+			text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+		}
+	}
+}
+

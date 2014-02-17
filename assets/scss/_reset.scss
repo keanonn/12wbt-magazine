@@ -1,0 +1,33 @@
+.header-main:after{
+	display: none;
+}
+
+.active > a {
+	background: $cream;
+	color: #000 !important;
+}
+
+/* overrides theme option */
+
+html{
+	  background: transparent url(assets/img/header/header-bg.png) repeat-x 0 0px;
+
+	body{
+		background: transparent url(assets/img/header/header-sprite.png) no-repeat 46% -190px;
+		padding-top: 40px;
+
+		.primary-menu .container, #footer-public .container, .top-bar, .top-bar.expanded .title-area, .top-bar-section ul, 
+		.top-bar-section ul li > a, .primary-breadcrumbs .container, .header-main,  .logo .logo-text{
+			background: none;
+		}
+		
+		a{
+		  color: $mb-blue-mid; font-weight: bold;
+		  &:hover{color: darken($mb-blue-mid,10%)}
+		}
+		.widget-title, .entry-title{
+		 color: $mb-purple !important;
+		}		
+	}
+}
+
