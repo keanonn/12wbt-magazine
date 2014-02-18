@@ -9,6 +9,26 @@
 			bottom: 0px;
 			ul li{
 			margin-right: 4px;
+			&.active-lock{
+				&.has-dropdown{
+					> a{
+						text-shadow:none !important;
+						padding-right: 20px !important;
+						.icon-white{ display:inline; margin-left:10px;}
+					}
+					> a:after{
+				 	display:none;
+				 		a{padding-top:10px;
+				 			padding-bottom: 10px;
+				 		}
+				  }
+				}
+				&.menu-item-has-children > a{
+					color: black !important;
+					background: $cream !important;
+					&:hover{background: $cream !important;}
+				}
+			}
 			&.home a{
 			@include hide-text;
 	    	position: relative;
@@ -31,7 +51,8 @@
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 939px) {
+	.top-bar .top-bar-section ul li ul {min-height: 320px;}
 
 }
 

@@ -133,22 +133,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</li>          
 						<li class="toggle-topbar menu-icon"><a href="#"><span><?php _e('Menu','engine'); ?></span></a></li>
 					</ul>
-					<section class="top-bar-section" style="display:block;">
-					<ul id="menu-main-12wbt" class="left">
-					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item active home"><a  href="https://www.12wbt.com/">Home</a></li>
-					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/tour/">How it Works</a>
+					<section class="top-bar-section">
+					<ul id="menu-main-12wbt" class="left" style="">
+					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page home"><a  href="https://www.12wbt.com/">Home</a></li>
+					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/tour/">How it Works?</a>
 					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/nutrition/">Food &amp; Nutrition</a>
 					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/programs/">Fitness</a>
 					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/mindset/">Mindset</a>
-					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown"><a  href="/tour/">Community</a>
+					<li id="" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown active-lock"><a  href="/tour/">Community<i class="icon-white icon-chevron-down"></i></a>
 						<ul class="dropdown">
-						<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com//success-stories/">Success Stories</a></li>
+						<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/success-stories/">Success Stories</a></li>
+						<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://www.12wbt.com/blog/">Blog</a></li>
 						</ul>
 					</li>
-					<li><a href="http://shop.12wbt.com/">Shop</a></li>
+					<li><a href="https://shop.12wbt.com/">Shop</a></li>
+					<li><a href="https://www.12wbt.com/faq">Help</a></li>
 					</ul>
 					</section>
-					<section class="" style="">
+					<section >
 					<ul id="nav-member">
 						<li><a href="https://go.12wbt.com/login/" class="login"> Login</a></li>
 						<?php if (get_option('twelvewbt_public_signups') == 'closed') { ?>
@@ -157,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<li><a href="https://go.12wbt.com/sign-up/" class="signup mb-btn">Join Now</a></li>
 						<?php } ?>
 					</ul>
-				</section>
+					</section>
 				</nav>
 			</div>
 		</div>

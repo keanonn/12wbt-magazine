@@ -2,15 +2,11 @@
 	display: none;
 }
 
-.active > a {
-	background: $cream;
-	color: #000 !important;
-}
-
 /* overrides theme option */
 
 html{
-	  background: transparent url(assets/img/header/header-bg.png) repeat-x 0 0px;
+
+	background: transparent url(assets/img/header/header-bg.png) repeat-x 0 0px;
 
 	body{
 		background: transparent url(assets/img/header/header-sprite.png) no-repeat 46% -190px;
@@ -27,7 +23,10 @@ html{
 		}
 		.widget-title, .entry-title{
 		 color: $mb-purple !important;
-		}		
+		}	
+		.icon-white{
+			display: none;
+		}
 	}
 }
 

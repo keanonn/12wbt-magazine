@@ -1,7 +1,8 @@
 .header{
 	.primary-menu{
+		 .container {padding:0px;}
 		 background: $mb-halo;
-		 padding-top: 10px;
+		 padding-top: 7px;
 		 border-bottom: 5px solid $cream;
 		 top:0px;
 		 position: fixed;
@@ -12,19 +13,25 @@
 				a {
 					@include arsmaquette-sans;
 					text-transform: none;
+					font-size: 13px;
+					line-height: 20px;
+					padding: 10px 12px;
+					text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 					color: $white;
-					&:hover {background: lighten($mb-blue-mid,10%) !important; }
+					&:hover {background: lighten($mb-blue-mid,10%) !important;}
 				}
-				ul li{
-					a{
-						@include border-radius(0);
+				ul{
+					li{
+						a{
+							@include border-radius(0);
+						}
 					}
 				}
 			}
 			ul#nav-member{
 				position: absolute;
 				right: 20px;
-				top: 19px;
+				top: 16px;
 			  li{
 					display: inline;
 					margin-left: 5px;
@@ -37,6 +44,7 @@
 				  	}
 						&.mb-btn{
 							@include border-radius(6px 6px 0 0);
+							padding: 10px 12px;
 							box-shadow:inset 0px 0px 0px #c19fdf, 0px 0px 0px #666666;
 						}
 					}
@@ -57,8 +65,7 @@
 						top: 5px;
 						width: 20px;
 						-webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #9d9d9d;
-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
-
+						box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
 					}
 				}
 			}
@@ -88,8 +95,6 @@ box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
 	}
 	.header-main{
 		height: 200px;
-/*		background: transparent url(assets/img/header/header-sprite.png) no-repeat 46% -270px;;
-*/
 		.logo{
 			top: 30px;
 			h1{
@@ -108,7 +113,7 @@ box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
 			position: absolute;
 			top: 40px;
 			right: 0;
-			width: 320px;
+			width: 340px;
 			line-height: 47px;
 			color: white;
 			font-size: 35px;
